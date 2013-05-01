@@ -1,0 +1,22 @@
+
+/form
+%form.form-horizontal#voteForm(action="/vote.json" method="post")
+	%h1.voteTitle Vote Inflator
+	.control-group
+		%label.control-label(for="inputPhoneNumber") Phone Number
+		.controls
+			%input.input-medium(type="text" id="inputPhoneNumber" name="inputPhoneNumber" placeholder="(111) 111 1111")
+	.control-group
+		%label.control-label(for="inputText") Vote Text
+		.controls
+			%input.input-medium(type="text" id="inputText" name="inputText" placeholder="Text")
+	.control-group
+		%label.control-label(for="inputLimit") Vote Limit
+		.controls
+			%select#inputLimit.input-custom(name="inputLimit")
+				- for i in 1..5
+					%option= i
+	.control-group
+		.controls
+			%button.btn.btn-danger(type="submit") Vote
+
