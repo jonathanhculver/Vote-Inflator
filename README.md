@@ -3,4 +3,4 @@ Vote-Inflator
 
 Inflates SMS voting by sending a vote from multiple phone numbers
 
-[voteinflator.com](http://jcu.lv/13SbEOF)
+[voteinflator](http://jonathanhculver.tumblr.com/post/50314188473/sms-vote-inflator)
